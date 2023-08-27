@@ -57,7 +57,7 @@ const userMsgData = [
         id: 7,
         msgFrom: 1,
         msgTo: 1,
-        msg: "www.nonsjonas.com/resume",
+        msg: "www.nonsojonas.com/resume",
         time: "04:48 pm",
         date: "27-08-2023",
         readStatus: "unread",
