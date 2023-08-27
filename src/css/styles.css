@@ -1,0 +1,157 @@
+@font-face {font-family: Segoe UI; src: url(../fonts/segoe_ui.woff);}
+@font-face {font-family: Segoe UI; src: url(../fonts/segoe_ui_bold.woff); font-weight: bold;}
+@font-face {font-family: Segoe UI; src: url(../fonts/segoe_ui_italic.woff); font-style: italic;}
+* {border: 0 auto; margin: 0 auto; padding: 0 auto; box-sizing: border-box;}
+body {background: #111b21; color: #FFF; font-family: Segoe UI, sans-serif!important; font-size: 14px!important; min-width: 365px; overflow-y:auto; overflow-x:hidden; scrollbar-width: thin; scrollbar-color: #222e35 #111b21!important;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover, a:active, a:focus {text-decoration: none;}
+hr {margin: 5px 0;}
+img {max-width: 100%;}
+.flex-div {display: flex;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-row {flex-direction: row;}
+.flex-column {flex-direction: column;}
+.f-align-start {align-items: flex-start;}
+.f-align-end {align-items: flex-end;}
+.f-align-center {align-items: center;}
+.sticky {min-height: 90%;}
+.clear {clear: both;}
+.radius {border-radius: 5px;}
+.radius-2 {border-radius: 10px;}
+.radius-circle {border-radius: 100%;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.inline {display: inline;}
+.block {display: block!important;}
+.inline-block {display: inline-block;}
+.small {font-size: 12px;}
+.none {display: none;}
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+.align-center {text-align: center;}
+.cursor {cursor: pointer;}
+.padding-0 {padding: 0!important;}
+.padding-2 {padding: 2px;}
+.padding-5 {padding: 5px;}
+.padding-10 {padding: 10px;}
+.padding-20 {padding: 10px 16px;}
+.padding-top {padding-top: 10px;}
+.padding-bottom {padding-bottom: 10px;}
+.padding-left {padding-left: 10px;}
+.padding-right {padding-right: 10px;}
+.margin-0 {margin: 0!important;}
+.margin-5 {margin: 5px;}
+.margin-10 {margin: 10px;}
+.margin-20 {margin: 8px 16px;}
+.margin-top {margin-top: 10px!important;}
+.margin-bottom {margin-bottom: 10px;}
+.margin-left {margin-left: 10px;}
+.margin-right {margin-right: 10px;}
+.bg-color {background-color: #111b21;}
+.bg-color-2 {background-color: #0b846d;}
+.color {color: #667781;}
+.welcome {height: 100vh;}
+.welcome-inner {height: 100%;}
+.welcome-inner {padding-top: 15%;}
+.welcome-inner h1 {font-size: 18px; color: #c0c5c8;}
+.welcome-inner .whatsapp-icon {font-size: 60px; margin-bottom: 40px;}
+.welcome-inner .end2end {font-size: 13px;}
+.welcome-inner .end2end i {margin-right: 5px;}
+.chat-left, .chat-right, .chat-right-2 {height: 100vh;}
+.chat-left.none {display:block;}
+.chat .col-sm-3 {width: 30%; border-right: 1px solid #434f56;}
+.chat .col-sm-9 {width: 70%; background-color: #222e35; border-bottom: 6px solid #0b846d;}
+.chat .col-sm-9.chat-right-2 {border-bottom: none;}
+.chat-welcome {margin-top: 180px;}
+.chat-welcome .fa-whatsapp {font-size: 100px; margin-bottom: 60px;}
+.chat-welcome h1 {font-size: 30px; color: #c0c5c8; margin-top: 40px;}
+.chat-welcome .desc {font-size: 13px; margin-top: 20px;}
+.chat-welcome .end2end {font-size: 13px; margin-top: 80px;}
+.user-top {background-color: #202c33; margin-right:1px!important}
+.user-top .profile-photo {width: 40px; height: 40px; object-fit: cover;}
+.user-top .w-icon {font-size: 22px; margin-right: 22px!important;}
+.user-top .user-top-icons {color: #c0c5c8; margin-top: 8px; padding-right: 0;}
+.user-search {margin: 0 10px;}
+.user-search button, .user-search input {background-color: rgba(34, 46, 53, 0.9); color: #c0c5c8; font-size: 13px; border: none; border-radius: 10px 0  0 10px; padding: 8px; width: 100%; outline: none!important;}
+.user-search input {border-radius: 0 10px 10px 0;}
+.user-list {padding: 0 10px; height: 81%;}
+.user-list .list:hover {background-color: rgba(34, 46, 53, 0.6);}
+.user-list .list.active {background-color: rgba(34, 46, 53);}
+.user-list .user-name {font-size: 17px; color: #F5F5F5;}
+.user-list .last-msg {font-size: 13px;}
+.user-list .list .name-msg {border-bottom: 1px solid #202c33; padding-top: 15px; padding-bottom: 15px;}
+.user-list .list .name-msg .chat-time {padding-top: 3px;}
+.user-list .profile-photo {width: 50px; max-width: 50px; height: 50px; margin-top: 12px;}
+.scroll-div {overflow-y:scroll; overflow-x:hidden; scrollbar-width: thin; scrollbar-color: #222e35 #111b21!important;}
+.chat-msg-top {padding: 9px 10px 9px 2px; margin-left: 0;}
+.chat-msg-top .col-2 {width:50px; padding: 0; margin: 0; margin-left: 15px;}
+.chat-msg-top .col-7 {padding: 0; margin: 0; margin-left: 5px;}
+.chat-msg-top .profile-photo {width: 40px; height: 40px; object-fit: cover;}
+.chat-msg-top .chat-user, .chat-msg-top .status {color: #F5F5F5;}
+.chat-msg-top .chat-user {font-size: 15px;}
+.chat-msg-body {background-color: #111b21; height: 80%; padding: 0 60px;}
+.msg-date {padding-top: 10px;}
+.chat-msg {display: block;}
+.msg-time {font-size: 11px; color: rgba(255, 255, 255, 0.6); display: block;}
+.your-reply, .their-reply {max-width: 85%; position: relative; background-color:#005c4b; color:#F5F5F5; padding:5px 12px; margin: 5px 5px; border-radius: 10px 0 10px 10px; float: right; word-wrap: break-word;}
+.your-reply::before {content: ""; position: absolute; right: -14px; margin-top: -5px; border-left: 14px solid #005c4b; border-bottom: 14px solid transparent;}
+.their-reply::before {content: ""; position: absolute; left: -14px; margin-top: -5px; border-right: 14px solid #202c33; border-bottom: 14px solid transparent;}
+.their-reply {background-color:#202c33; float: left; border-radius: 0 10px 10px 10px;}
+.no-quote::before {border: 0;}
+.chat-msg-icons {color: #c0c5c8; margin-top: 8px; padding-right: 0;}
+.chat-msg-icons .w-icon {font-size: 22px; margin-right: 22px;}
+.chat-msg-form {background-color: #222e35;}
+.smiley-clip {width: 11%;}
+.smiley-clip .w-icon {font-size: 26px; padding: 18px 0; padding-left: 20px;}
+.chat-form {width: 89%;}
+.chat-form #type-msg {width: 90%; background-color: #32434e; font-size: 15px; color: #c0c5c8; border: none; border-radius: 7px; padding: 9px 15px; padding-bottom: 11px; margin: 10px 0; outline: none!important;}
+.chat-form button {color: #c0c5c8; font-size: 20px; background: none; border: none;}
+.desktop-view {display: block;}
+.mobile-view {display: none;}
+.bg-glaring {background: linear-gradient(to right, #1a2932, transparent, #1a2932); background-size: 200% 100%; animation: glaringAnimation 3s linear infinite;}
+@keyframes glaringAnimation {0% {background-position: -100% 0;} 100% {background-position: 200% 0;}}
+
+@media only screen and (max-width: 1200px) {
+  .smiley-clip {width: 10%;}
+  .chat-form {width: 90%;}
+  .smiley-clip .w-icon {padding-left: 10px;}
+  .chat-msg-body {height: 90%;}
+}
+
+@media only screen and (max-width: 992px) {
+  .chat-left .col-5 {width: 60%;}
+  .chat-left .col-7 {width: 40%;}
+  .chat-left.none {display:none;}
+  .chat-right {display: none;}
+  .user-top .user-top-icons {margin-top: 12px;}
+  .user-top-nav {background-color: #202c33; padding: 0 20px; margin-bottom: 4px;}
+  .user-top-nav .w-heading {color: #00b392; padding: 10px; border-bottom: 2px solid #00b392;}
+  .user-top-nav .badge {background-color: #00b392; color: #000; padding: 4px 6px;}
+  .user-list {height: 80%;}
+  .user-list .list {padding: 0 5px;}
+  .chat .col-sm-3 {width: 100%; border: none;}
+  .chat .col-sm-9 {width: 100%;}
+  .chat-msg-body {padding: 10px;}
+  .chat-msg-form {width: 100%; position: fixed; bottom: 0;}
+  .welcome-inner {padding-top: 40%;}
+  .welcome-inner .whatsapp-icon {font-size: 80px;}
+  .welcome-inner .mobile-view {position: fixed; width: 100%; bottom: 30px;}
+  .desktop-view {display: none;}
+  .mobile-view {display: block;}
+}
+
+@media only screen and (max-width: 768px) {
+  .smiley-clip {width: 15%;}
+  .chat-form {width: 85%;}
+  .smiley-clip .w-icon {padding-left: 15px;}
+}
+
+@media only screen and (max-width: 576px) {
+  .chat-msg-top .col-7 {margin-left: 0; width: 55%;}
+  .smiley-clip {width: 20%;}
+  .chat-form {width: 80%;}
+  .smiley-clip .w-icon {padding-left: 15px; font-size: 20px; padding-top: 22px;}
+  .chat-form #type-msg {width: 85%;}
+  .chat-form button {font-size: 16px; margin-left: 7px}
+}
