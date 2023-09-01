@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/whatsapp-clone-react/static/css/main.2d12758c.css",
+    "main.js": "/whatsapp-clone-react/static/js/main.0b3e6cf1.js",
+    "static/media/fontawesome-webfont.svg?v=4.6.3": "/whatsapp-clone-react/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
+    "static/media/MaterialIcons-Regular.ttf": "/whatsapp-clone-react/static/media/MaterialIcons-Regular.00b1fb69fb78ff50fd55.ttf",
+    "static/media/fontawesome-webfont.ttf?v=4.6.3": "/whatsapp-clone-react/static/media/fontawesome-webfont.f0af1680f082547a7aae.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.6.3": "/whatsapp-clone-react/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
+    "static/media/MaterialIcons-Regular.woff": "/whatsapp-clone-react/static/media/MaterialIcons-Regular.f2a0933406f783065152.woff",
+    "static/media/fontawesome-webfont.eot": "/whatsapp-clone-react/static/media/fontawesome-webfont.09b9015b1ecaf95655b1.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.6.3": "/whatsapp-clone-react/static/media/fontawesome-webfont.0317d582b93c20f68e05.woff2",
+    "static/media/MaterialIcons-Regular.eot": "/whatsapp-clone-react/static/media/MaterialIcons-Regular.479700ea91d964d295d7.eot",
+    "static/media/MaterialIcons-Regular.woff2": "/whatsapp-clone-react/static/media/MaterialIcons-Regular.12a47ed5fd5585f0f422.woff2",
+    "static/media/segoe_ui_italic.woff": "/whatsapp-clone-react/static/media/segoe_ui_italic.eb9dca895cf2de5deeda.woff",
+    "static/media/segoe_ui_bold.woff": "/whatsapp-clone-react/static/media/segoe_ui_bold.21ecd6932d8c6e2ae14e.woff",
+    "static/media/segoe_ui.woff": "/whatsapp-clone-react/static/media/segoe_ui.293e692f583af77a347b.woff",
+    "index.html": "/whatsapp-clone-react/index.html",
+    "main.2d12758c.css.map": "/whatsapp-clone-react/static/css/main.2d12758c.css.map",
+    "main.0b3e6cf1.js.map": "/whatsapp-clone-react/static/js/main.0b3e6cf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d12758c.css",
+    "static/js/main.0b3e6cf1.js"
+  ]
+}
