@@ -11,7 +11,9 @@ A WhatsApp clone built with **HTML**, **CSS**, **Javascript (React)**.
 
 ## Demo
 
-![Screenshot](https://nonsojonas.com/img_files/portfolio/screenshot%20whatsapp%20clone.jpg)
+[Live Demo Preview](https://nonsojonas.github.io/whatsapp-clone-react/)
+
+![Screenshot](https://nonsojonas.com/img_files/portfolio/screenshot%20whatsapp%20clone%20react%20app.jpg)
 
 ## Features
 
